@@ -3,6 +3,11 @@
 
 /* common css 
  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -140,13 +145,61 @@ article {
 
 .collection h1 {
     text-align: center;
+    margin-bottom: 30px;
 }
 
-.see{
+.see {
+    text-align: right;
+}
+
+.see a {
     text-decoration: none;
     font-size: 16px;
-    letter-spacing: 0px;
-    text-align: center;
     color: rgba(224, 44, 109, 0.87);
+}
 
+.feat {
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 10px;
+}
+
+.amet {
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.text h1 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.text p {
+    font-size: 14px;
+    color: #D9DBE1;
+    padding-bottom: 30px;
+    line-height: 24px;
+
+}
+
+.fill {
+    font-size: 16px;
+}
+
+.social_media a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #22213C;
+    border-radius: 50%;
 }
