@@ -203,3 +203,49 @@ footer {
     background-color: #22213C;
     border-radius: 50%;
 }
+
+@media only screen and (max-width:767px) {
+
+    .nav,{
+        display: none;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .banner_full {
+        flex-direction: column;
+    }
+
+    .banner-half {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-half h1 {
+        font-size: 28px;
+        line-height: 42px;
+        margin: 10px 0;
+
+    }
+
+    .sponser_image {
+        display: grid;
+        justify-items: start;
+        justify-content: space-evenly;
+    
+    }
+    .sopnser{
+        margin-top: 30px;
+    }
+    .collect {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    
+    }
+    footer{
+        width: 100%;
+    }
+}
